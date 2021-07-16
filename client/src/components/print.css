@@ -1,0 +1,55 @@
+.print-only{
+    display: none;
+   
+
+  }
+  
+  @media print {
+
+    
+  
+    @page {
+      size:  landscape a3;
+      
+      
+
+    }
+    html, body {
+       
+        background: #FFF;
+         overflow: initial !important;
+         box-sizing: border-box !important;
+         
+       
+    }
+    
+    .print-only{
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: rgb(64, 193, 208);
+        border-style: solid;
+        border-color: rgb(16, 15, 15);
+        width :420mm !important;
+        height:295mm !important;
+        margin: 0% !important;
+    }
+
+    .print-body{
+        display: flex;
+        flex-direction: column;
+        border-style: solid;
+        border-color: rgb(16, 15, 15);
+        margin-left: 70mm !important;
+        height: 280mm !important;
+        margin-right: 10mm !important;
+        background-color:white;
+        
+    }
+
+  
+  
+  }
+
+
+  
