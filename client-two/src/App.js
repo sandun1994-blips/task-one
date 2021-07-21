@@ -65,7 +65,7 @@ const  print=[
           loadindex: "108/112(A8)",
           pickConfig: 2,
           palletConfig: "A2X6(+2)",
-          barCode: "https://jet-marking.com/wp-content/uploads/2017/04/pasted-image-0-1.png"
+          stockCode: 67832156
         },
         {
           description: "Description  www",
@@ -76,7 +76,7 @@ const  print=[
           loadindex: "108/112(A8)",
           pickConfig: 4,
           palletConfig: "A2X6(+2)",
-          barCode: "https://jet-marking.com/wp-content/uploads/2017/04/pasted-image-0-1.png"
+          stockCode: 23689043
         },{
           description: "Description",
           pattern: "Pattern H/L ww",
@@ -86,7 +86,7 @@ const  print=[
           loadindex: "108/112(A8)",
           pickConfig: 10,
           palletConfig: "A2X6(+2)",
-          barCode: "https://jet-marking.com/wp-content/uploads/2017/04/pasted-image-0-1.png"
+          stockCode: 14567888
         }
 
         ]

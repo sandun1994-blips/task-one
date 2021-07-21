@@ -1,6 +1,8 @@
 import React, { useRef } from "react";
 import ReactToPrint from "react-to-print";
 import "./print.css";
+import Barcode from "react-barcode";
+
 
 const PrintBar = ({ print }) => {
 
@@ -89,7 +91,7 @@ const ComponentToPrint = React.forwardRef((props, ref) => (
               {print[i]?.plyinfo}
             </div>
             <div>
-              <img src={print[i]?.barCode} style={{ width: "200px" }}  alt="Logo"/>
+              <Barcode value={print[i]?.stockCode}/>
             </div>
             <div
               style={{ marginLeft: "7px", fontSize: "120px", fontWeight: "bold" }}
